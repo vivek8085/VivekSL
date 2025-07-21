@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Lokolakar - AI Developer & Computer Science Student</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loader-3d">
+            <div class="loader-cube">
+                <div class="cube-face cube-front"></div>
+                <div class="cube-face cube-back"></div>
+                <div class="cube-face cube-right"></div>
+                <div class="cube-face cube-left"></div>
+                <div class="cube-face cube-top"></div>
+                <div class="cube-face cube-bottom"></div>
+            </div>
+            <div class="loader-text">Initializing Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-3d"><img src="Teal and Purple Modern Design Studio Animated Logo.gif" alt="VL" width="40px" height="40px"></div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- Theme toggle -->
+<button id="theme-toggle"
+aria-label="Toggle dark mode"
+class="btn btn--outline btn--sm theme-toggle">
+<i class="fas fa-moon" id="theme-icon"></i>
+</button>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="floating-shapes" id="floating-shapes"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting glass-card">
+                    <span class="greeting-text">Hello, I'm</span>
+                </div>
+                <h1 class="hero-name">
+                    <span class="name-text" id="hero-name">Vivek Lokolakar</span>
+                </h1>
+                <div class="hero-title-3d">
+                    <span class="title-text">AI & FullStack Developer</span>
+                </div>
+                <p class="hero-description">
+                    Passionate about building intelligent solutions with AI/ML and crafting seamless web experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--outline btn-3d">
+                        <span>View Projects</span>
+                        <i class="fas fa-rocket"></i>
+                    </a>
+                    <a href="#contact" class="btn btn--outline btn-3d">
+                        <span>Contact Me</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item glass-card">
+                        <span class="stat-number">9.05</span>
+                        <span class="stat-label">CGPA</span>
+                    </div>
+                    <div class="stat-item glass-card">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item glass-card">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Awards</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="laptop-3d" id="laptop-3d">
+                    <div class="laptop-screen">
+                        <div class="screen-content">
+                            <div class="code-lines">
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="laptop-base"></div>
+                </div>
+                <div class="floating-elements">
+                    <div class="float-elem elem-ai"><i class="fas fa-brain"></i></div>
+                    <div class="float-elem elem-code"><i class="fas fa-code"></i></div>
+                    <div class="float-elem elem-data"><i class="fas fa-database"></i></div>
+                    <div class="float-elem elem-web"><i class="fas fa-globe"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-subtitle">Passionate developer with a vision</div>
+            </div>
+            <div class="about-content">
+                <div class="about-info glass-card">
+                    <div class="avatar-3d">
+                        <div class="avatar-inner"><img src="POSTCARD.jpg" alt="VL" width="100%" height="100%" style="position: relative; left: 0px;"></div>
+                        <div class="avatar-ring-1"></div>
+                        <div class="avatar-ring-2"></div>
+                        <div class="avatar-ring-3"></div>
+                    </div>
+                    <div class="personal-info">
+                        <h3>Vivek Lokolakar</h3>
+                        <p class="role">AI & FullStack Developer</p>
+                        <p class="bio">Passionate Computer Science student with expertise in AI, Machine Learning, and FullStack Development. Currently pursuing B.E in Computer Science & Engineering with a CGPA of 9.05.</p>
+                        <div class="contact-quick">
+                            <a href="mailto:viveklokolakar@gmail.com" class="contact-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>viveklokolakar@gmail.com</span>
+                            </a>
+                            <a href="tel:+919343553051" class="contact-link">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9343553051</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-card glass-card">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="edu-details">
+                            <h4>B.E Computer Science & Engineering</h4>
+                            <p>Jain College Of Engineering</p>
+                            <div class="edu-meta">
+                                <span>6th Semester • CGPA: 9.05</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-subtitle">Technologies I work with</div>
+            </div>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div class="skills-chart-container glass-card">
+                <h3>Skill Distribution</h3>
+                <canvas id="skillsChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section class="certifications-marquee">
+        <h2 style="text-align: center; size: 3px;" class="section-title"><i>Certifications</i></h2>
+        <div class="marquee-content" id="certifications-marquee">
+            <!-- Populated by JavaScript -->
+        </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-subtitle">Where I've worked and learned</div>
+            </div>
+            <div class="timeline-3d" id="experience-timeline">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-subtitle">Innovative solutions I've built</div>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="AI/ML">AI/ML</button>
+                <button class="filter-btn" data-filter="NLP">NLP</button>
+                <button class="filter-btn" data-filter="Web Development">Web Dev</button>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements</h2>
+                <div class="section-subtitle">Milestones I'm proud of</div>
+            </div>
+            <div class="achievements-grid" id="achievements-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-subtitle">Let's build something amazing together</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info glass-card">
+                    <h3>Contact Information</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:viveklokolakar@gmail.com">viveklokolakar@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+919343553051">+91 9343553051</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/viveklokolakar" target="_blank">@viveklokolakar</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fab fa-github"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">GitHub</span>
+                                <a href="https://github.com/vivek8085" target="_blank">@vivek8085</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contact-form" 
+      action="https://formsubmit.co/xyzas2238@outlook.com" 
+      method="POST">
+      <!-- Hidden Inputs -->
+    <input type="hidden" name="_subject" value="New Portfolio Contact">
+    <input type="hidden" name="_autoresponse" value="Hi {{_name}}, I've received your message and will reply shortly. - Vivek">
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Visual Form Elements -->
+    <h3>Send Message</h3>
+    <div class="form-group">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" id="name" name="_name" class="form-control" placeholder="John" required>
+    </div>
+    <div class="form-group">
+        <label for="email" class="form-label">Your Email</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="John@email.com" required>
+    </div>
+    <div class="form-group">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" id="subject" name="subject" class="form-control" placeholder="Message About" required>
+    </div>
+    <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" name="message" rows="5" class="form-control" placeholder="Write message....." required></textarea>
+    </div>
+    <button type="submit" class="btn btn--primary btn--full-width btn-3d">
+        <span>Send Message</span>
+        <i class="fas fa-paper-plane"></i>
+    </button>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass-card">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Vivek Lokolakar. Crafted with passion and innovation.</p>
+                <div class="social-links">
+                    <a href="https://www.credly.com/users/vivek-lokolakar" target="_blank" class="social-link">
+                        <i class="fab fa-c"></i>
+                    </a>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/a28eb926-48d2-455c-9787-50d330f58f95" target="_blank" class="social-link">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modal-body">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
