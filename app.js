@@ -180,15 +180,15 @@ const portfolioData = {
         education: {
             institution: "Jain College Of Engineering",
             degree: "B.E(Computer Science & Engg)",
-            semester: "6th semester",
-            cgpa: "9.05"
+            semester: "8th semester",
+            cgpa: "9.16"
         }
     },
     skills: {
         programming: ["Java", "Python", "C", "JavaScript"],
         frontend: ["HTML", "CSS", "JavaScript", "Bootstrap", "Tailwind"],
         fullstack:["React","Node.js","Express.js","MongoDB","MySQL","Neo4j"],
-        aiml: ["CNN", "Machine Learning", "Analytics", "Prompt Engineering","NLP"],
+        aiml: ["CNN", "Machine Learning", "Analytics", "Prompt Engineering","NLP","LangChain","GenAI"],
         dataScience: ["Python", "MS SQL", "DBMS", "Data Visualization"],
         tools: ["Blender", "UI/UX", "Figma", "Git","Canva","Photoshop"],
         Cloud:["Google Cloud Platform", "AWS", "Azure"],
@@ -196,6 +196,18 @@ const portfolioData = {
         ManagementSkills:["Agile","Technical Project Management","SocialMedia Marketing","IBM SPSS","Business Project Management"]
     },
     experience: [
+        {
+            company: "Infosys SpringBoard",
+            role: "Full Stack Development",
+            duration: "Oct-Dec 2025",
+            projects: [
+                {
+                    name: "CampusTrack Intelligent Lost & Found System",
+                    accuracy: "For AI matching",
+                    tech: "Java, Fullstack Technologies"
+                }
+            ]
+        },
         {
             company: "IBM SkillBuild & Edunet Foundation",
             role: "AIML Development",
