@@ -173,7 +173,6 @@ const portfolioData = {
     personalInfo: {
         name: "Vivek Lokolakar",
         role: "Computer Science Student & AI Developer",
-        phone: "9343553051",
         email: "viveklokolakar@gmail.com",
         linkedin: "www.linkedin.com/in/viveklokolakar",
         github: "https://github.com/vivek8085",
